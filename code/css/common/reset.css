@@ -1,0 +1,40 @@
+body,p,h2,h3{
+    margin:0;
+}
+button,input{
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+}
+button{
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+label,input{
+    vertical-align: middle;
+}
+ui{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+table{
+    border-collapse: collapse;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('http://at.alicdn.com/t/font_3355594_fttt940o0j5.woff2?t=1650805626562') format('woff2'),
+         url('http://at.alicdn.com/t/font_3355594_fttt940o0j5.woff?t=1650805626562') format('woff'),
+         url('http://at.alicdn.com/t/font_3355594_fttt940o0j5.ttf?t=1650805626562') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
